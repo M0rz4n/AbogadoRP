@@ -5,6 +5,7 @@ def main():
     with open("Notas.txt") as note:
         note.write(input())
     print("Nota guardada")
+    print("Gracias y hasta más ver")
 
 
 if __name__ == "__main__":
