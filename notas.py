@@ -2,8 +2,9 @@
 
 def main():
     print("Escriba y presione ENTER para guardar")
-    with open("Notas.txt") as note:
-        note.write(input())
+
+    with open("Notas.txt", "a") as note:
+        note.write("\n" + input())
     print("Nota guardada")
     print("Gracias y hasta más ver")
 
